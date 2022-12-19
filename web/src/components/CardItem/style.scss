@@ -1,0 +1,36 @@
+.card {
+  min-height: 410px !important;
+  width: 380px !important;
+  padding: 16px !important;
+  background-color: var(--white-color) !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  box-shadow: 4px 5px 4px -3px rgba(0, 0, 0, 0.1) !important;
+  margin: 15px !important;
+  .circleImage{
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    margin-bottom: 17px;
+    overflow: hidden;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray-color);
+  }
+  .versionContainer {
+    width: fit-content;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--black-600);
+  }
+}

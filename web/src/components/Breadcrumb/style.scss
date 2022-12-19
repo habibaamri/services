@@ -1,0 +1,9 @@
+.Breadcrumb__container {
+  padding: 25px 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .Breadcrumb__container {
+    padding-left: 0;
+  }
+}

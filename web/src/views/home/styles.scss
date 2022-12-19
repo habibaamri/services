@@ -1,0 +1,56 @@
+.HomeContainer {
+  display: flex;
+  padding-bottom: 60px;
+  flex-direction: column;
+  .innerContainer {
+    width: fit-content;
+    margin: 40px 0 40px 220px;//TO UPDATE WHEN ADD MOB CSS
+  }
+  .categoryContainer {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--gray-300);
+    margin-bottom: 28px;
+    .icon-esd-catalog {
+      font-size: 2.3rem;
+      display: inline-block;
+      margin-right: 4px;
+      color: #323232;
+    }
+    .category-title {
+      display: inline;
+      font-size: 30px;
+      font-weight: 300;
+      color: var(--gray-color);
+    }
+  }
+  .category-desc {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .cardsContainer {
+    padding-left: 55px;
+    border-left: 3px solid var(--primary-color);
+    .cards-section-title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--gray-color);
+      margin-bottom: 30px;
+    }
+  }
+  .category-title-container {
+    padding-left: 50px;
+  }
+  .category-desc {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Home__container {
+    flex-direction: row;
+  }
+  .category-title-container {
+    padding-left: 0px;
+  }
+}
